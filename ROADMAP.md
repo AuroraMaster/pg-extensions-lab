@@ -10,7 +10,7 @@ Legend:  `·` not started · `o` in progress · `x` done
 | Category   | Extension          | B | C | E | K | D |
 |------------|--------------------|---|---|---|---|---|
 | base       | PG 17 image        | · | · | · | – | · |
-| vector     | pgvector           | · | · | · | · | · |
+| vector     | pgvector           | x | x | x | · | x |
 | vector     | pgvecto.rs         | · | · | · | · | · |
 | vector     | pgvectorscale      | · | · | · | · | · |
 | graph      | Apache AGE         | · | · | · | · | · |
