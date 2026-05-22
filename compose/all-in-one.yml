@@ -1,0 +1,18 @@
+# Convenience stack that brings up the base image only.
+# Per-extension stacks live alongside this file and are added as each
+# extension lands. See ROADMAP.md for the planned matrix.
+
+services:
+  pg:
+    image: pgxlab/base:17
+    build: ../base
+    environment:
+      POSTGRES_PASSWORD: pgxlab
+      POSTGRES_DB: lab
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
