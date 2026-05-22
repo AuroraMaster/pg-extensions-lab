@@ -11,8 +11,8 @@ Legend:  `·` not started · `o` in progress · `x` done
 |------------|--------------------|---|---|---|---|---|
 | base       | PG 17 image        | · | · | · | – | · |
 | vector     | pgvector           | x | x | x | · | x |
-| vector     | pgvecto.rs         | · | · | · | · | · |
-| vector     | pgvectorscale      | · | · | · | · | · |
+| vector     | pgvecto.rs         | x | – | x | · | x |
+| vector     | pgvectorscale      | x | – | x | · | x |
 | graph      | Apache AGE         | · | · | · | · | · |
 | graph      | pg_graphql         | · | · | · | – | · |
 | graph      | pgrouting          | · | · | · | · | · |
